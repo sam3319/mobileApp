@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회전 각도"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0000ff"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회전"
+        android:id="@+id/btn"
+        android:onClick="Rotation"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"
+        android:maxWidth="300dp"
+        android:maxHeight="500dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
