@@ -58,6 +58,7 @@
 
 결과 출력: TextView로 결과 표시
 
+---
 
 📐 정렬 방식
 전체 레이아웃: LinearLayout (Vertical)
