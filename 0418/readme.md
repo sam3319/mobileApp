@@ -1,3 +1,76 @@
 # 모바일 앱 프로그래밍 일곱 번째 수업 내용
 
-###ㅁㄴㅇㅁㄴㅇ
+
+## 📋 메뉴(Menu)
+
+### ✅ 정의
+메뉴는 사용자가 앱 내에서 기능을 선택하거나 설정을 변경할 수 있도록 도와주는 UI 요소
+
+### ✅ 종류
+- **옵션 메뉴(Options Menu)**  
+  액티비티의 상단 앱바에 표시되며, 전역 설정 또는 주요 기능들을 배치.
+  
+- **컨텍스트 메뉴(Context Menu)**  
+  특정 뷰(예: 리스트 아이템)를 길게 눌렀을 때 나타나는 메뉴.
+
+- **팝업 메뉴(Popup Menu)**  
+  버튼 옆에 표시되는 작은 메뉴로, 드롭다운처럼 작동.
+
+### ✅ 특징
+- `res/menu/` 폴더에 XML 형식으로 정의
+- Java/Kotlin 코드에서 `MenuInflater`를 통해 화면에 표시
+
+---
+
+## 💬 대화 상자(Dialog)
+
+### ✅ 정의
+대화 상자는 사용자에게 메시지를 전달하거나, 간단한 입력을 받을 때 사용하는 팝업 창이다.
+
+### ✅ 종류
+- **AlertDialog**  
+  가장 일반적인 형태로, 제목, 메시지, 버튼을 포함할 수 있음
+  
+- **Custom Dialog**  
+  사용자 정의 레이아웃을 사용하는 대화 상자
+
+- **DialogFragment**  
+  대화 상자를 프래그먼트로 구현하여 생명주기 관리에 유리함
+
+### ✅ 구성 요소
+- 제목 (`setTitle`)
+- 메시지 (`setMessage`)
+- 버튼 (`setPositiveButton`, `setNegativeButton`)
+- 사용자 정의 레이아웃 (`setView`)
+
+---
+
+## 🔔 알림(Notification)
+
+### ✅ 정의
+알림은 앱 외부(예: 상단 상태바)에 메시지를 전달하여 사용자에게 정보를 알려주는 기능.
+
+### ✅ 구성 요소
+- **제목 및 내용**: 사용자에게 표시될 정보
+- **아이콘**: 작은 이미지 (주로 앱 로고)
+- **작업**: 알림을 클릭했을 때 실행되는 인텐트
+
+### ✅ Android 8.0 이상 (Oreo)
+알림을 표시하려면 **알림 채널(Notification Channel)**을 반드시 생성해야 한다.
+
+### ✅ 사용 목적 예시
+- 채팅 메시지 도착
+- 다운로드 완료
+- 배터리 부족 경고 등
+
+---
+
+## 📚 참고 링크
+- [Android 공식 문서 - 메뉴](https://developer.android.com/guide/topics/ui/menus)
+- [Android 공식 문서 - 대화 상자](https://developer.android.com/guide/topics/ui/dialogs)
+- [Android 공식 문서 - 알림](https://developer.android.com/develop/ui/views/notifications)
+
+---
+
+더 많은 예제와 한국어로 된 Android 자료는  
+👉 [GPTOnline.ai](https://gptonline.ai/ko/) 에서 확인해보세요!
