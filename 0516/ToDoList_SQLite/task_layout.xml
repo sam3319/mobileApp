@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/primary"
+    app:strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:buttonTint="@color/task_complete"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/todoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/todoCheckBox"
+            android:layout_toStartOf="@id/todoEdit"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="할 일"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/todoEdit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@id/todoDelete"
+            android:src="@android:drawable/ic_menu_edit"
+            android:tint="@color/primary" />
+
+        <ImageView
+            android:id="@+id/todoDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_delete"
+            android:tint="@color/accent" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
