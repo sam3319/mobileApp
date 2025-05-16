@@ -55,22 +55,7 @@
 - **아이콘**: 작은 이미지 (주로 앱 로고)
 - **작업**: 알림을 클릭했을 때 실행되는 인텐트
 
-### ✅ Android 8.0 이상 (Oreo)
-알림을 표시하려면 **알림 채널(Notification Channel)**을 반드시 생성해야 한다.
-
 ### ✅ 사용 목적 예시
 - 채팅 메시지 도착
 - 다운로드 완료
 - 배터리 부족 경고 등
-
----
-
-## 📚 참고 링크
-- [Android 공식 문서 - 메뉴](https://developer.android.com/guide/topics/ui/menus)
-- [Android 공식 문서 - 대화 상자](https://developer.android.com/guide/topics/ui/dialogs)
-- [Android 공식 문서 - 알림](https://developer.android.com/develop/ui/views/notifications)
-
----
-
-더 많은 예제와 한국어로 된 Android 자료는  
-👉 [GPTOnline.ai](https://gptonline.ai/ko/) 에서 확인해보세요!
