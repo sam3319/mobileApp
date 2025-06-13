@@ -56,7 +56,7 @@
 
 <div align="center">
 
-| 홈 화면 | 퀴즈 | 학습 |
+| 홈 화면 | 학습 | 퀴즈 |
 |---------|------|------|
 | <img src="https://github.com/user-attachments/assets/b894ac43-863d-4be0-ab27-22730f99f0bf" width="250"> | <img src="https://github.com/user-attachments/assets/39921b17-55ea-49ab-b668-495512193895" width="250"> | <img src="https://github.com/user-attachments/assets/380d1c76-7651-4042-b2bd-1aa697180b4f" width="250"> |
 
