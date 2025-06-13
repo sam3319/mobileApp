@@ -81,9 +81,9 @@
 - **미디어**: MediaRecorder API (음성 녹음)
 
 ### 주요 라이브러리
-implementation 'com.google.android.material:material:1.9.0'
-implementation 'androidx.recyclerview:recyclerview:1.3.0'
-implementation 'androidx.cardview:cardview:1.0.0'
+- **implementation 'com.google.android.material:material:1.9.0'
+- **implementation 'androidx.recyclerview:recyclerview:1.3.0'
+- **implementation 'androidx.cardview:cardview:1.0.0'
 
 ## 📖 사용법
 
