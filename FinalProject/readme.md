@@ -54,10 +54,18 @@
 
 ## 📱 스크린샷
 
-| 홈 화면 | 퀴즈 | 학습 | 모의면접 | 마이페이지 |
-|---------|------|------|----------|------------|
-| (!(https://github.com/user-attachments/assets/c9ce47ec-8fb0-4a10-b421-f2557ca0b2dc)
-) | ![Quiz](screenshots/quiz.png) | ![Study](screenshots/study.png) | ![Interview](screenshots/interview.png) | ![Profile](screenshots/profile.png) |
+<div align="center">
+
+| 홈 화면 | 퀴즈 | 학습 |
+|---------|------|------|
+| <img src="https://github.com/user-attachments/assets/b894ac43-863d-4be0-ab27-22730f99f0bf" width="250"> | <img src="https://github.com/user-attachments/assets/39921b17-55ea-49ab-b668-495512193895" width="250"> | <img src="https://github.com/user-attachments/assets/380d1c76-7651-4042-b2bd-1aa697180b4f" width="250"> |
+
+| 모의면접 | 마이페이지 |
+|----------|------------|
+| <img src="https://github.com/user-attachments/assets/8af0187d-07df-4c0c-b427-b1b61793e309" width="250"> | <img src="https://github.com/user-attachments/assets/12b061a9-b97b-486a-ba18-d94f3532b19c" width="250"> |
+
+</div>
+
 
 ## 🛠️ 기술 스택
 
