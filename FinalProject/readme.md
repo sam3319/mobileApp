@@ -56,7 +56,7 @@
 
 | 홈 화면 | 퀴즈 | 학습 | 모의면접 | 마이페이지 |
 |---------|------|------|----------|------------|
-| ![Home](![스크린샷 2025-06-12 185657](https://github.com/user-attachments/assets/c9ce47ec-8fb0-4a10-b421-f2557ca0b2dc)
+| (!(https://github.com/user-attachments/assets/c9ce47ec-8fb0-4a10-b421-f2557ca0b2dc)
 ) | ![Quiz](screenshots/quiz.png) | ![Study](screenshots/study.png) | ![Interview](screenshots/interview.png) | ![Profile](screenshots/profile.png) |
 
 ## 🛠️ 기술 스택
